@@ -38,7 +38,7 @@ vector<T> multscalar(T scalar, vector<T>& x){
     for(int i = 0; i < x.size(); i++){
         c.push_back(x[i] * scalar);
     }
-    return x;
+    return c;
 }
 template<typename T>
 vector<T> Sum(const vector<T>& x, const vector<T>& y){
