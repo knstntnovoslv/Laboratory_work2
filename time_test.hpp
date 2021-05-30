@@ -87,7 +87,7 @@ void comparing_my_and_stl_vectors(int n){
     print_result_stl("Append for Int Stl vector",test_append_stl_int(n));
 
     print_result("Append for Double vector", test_append_double(n));
-    print_result_stl("Append for Int Stl vector",test_append_stl_double(n));
+    print_result_stl("Append for Double stl vector",test_append_stl_double(n));
 
     print_result("Prepend for Int vector", test_prepend_int(n));
     print_result_stl("Prepend for Int Stl vector",test_prepend_stl_int(n));
@@ -99,7 +99,7 @@ void comparing_my_and_stl_vectors(int n){
     print_result_stl("Insert for Int Stl vector",test_insert_stl_int(n));
 
     print_result("Insert for Double vector", test_insert_double(n));
-    print_result_stl("Insert for Int Stl vector",test_insert_stl_double(n));
+    print_result_stl("Insert for Double Stl vector",test_insert_stl_double(n));
 
     print_result("Sum for Int vectors", test_sum_int_vector(n));
     print_result_stl("Sum for Int Stl vectors",test_sum_int_stl_vector(n));
